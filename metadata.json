@@ -1,0 +1,6 @@
+{
+  "name": "Data Cleaner AI Agent",
+  "description": "An interactive, senior intelligence Data Cleaning and Preprocessing agent designed for data scientists and analysts to analyze, clean, transform, and optimize raw datasets for machine learning models.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
