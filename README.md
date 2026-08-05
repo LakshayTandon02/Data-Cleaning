@@ -69,3 +69,64 @@ flowchart LR
     I --> J
     J --> K
     K --> L
+How It Works
+Upload Dataset — Select a supported dataset file.
+File Processing — The application reads and processes the uploaded data.
+Data Preview — View dataset rows, columns, and information.
+Data Inspection — Explore the dataset and identify possible data-quality issues.
+Data Cleaning — Apply the available cleaning operations.
+Final Review — Review the processed data before using it for analysis.
+✨ Key Features
+<table> <tr> <td width="50%">
+📁 Dataset Upload
+
+Upload supported dataset files through an easy-to-use interface.
+
+CSV files
+Excel files
+Quick file selection
+Simple upload experience
+</td> <td width="50%">
+👀 Data Preview
+
+View uploaded data in a structured and readable format.
+
+Dataset rows
+Column names
+Organized tables
+Quick data inspection
+</td> </tr> <tr> <td width="50%">
+🧹 Data Cleaning
+
+Prepare raw data through an interactive cleaning interface.
+
+Identify data issues
+Apply cleaning operations
+Improve data quality
+Prepare data for analysis
+</td> <td width="50%">
+📊 Dataset Insights
+
+Understand the structure of your dataset.
+
+View rows and columns
+Explore available fields
+Review dataset information
+Understand data structure
+</td> </tr> <tr> <td width="50%">
+⚡ Fast Performance
+
+Built using Vite for a fast and smooth experience.
+
+Fast startup
+Quick updates
+Optimized builds
+</td> <td width="50%">
+📱 Responsive UI
+
+Designed to work smoothly across different devices.
+
+Desktop
+Tablet
+Mobile
+</td> </tr> </table>
