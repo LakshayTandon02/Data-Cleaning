@@ -35,98 +35,11 @@ The application provides an interactive interface where users can upload, explor
 > 🎯 **Goal:** Make raw data easier to explore, understand, clean, and prepare for better insights.
 
 ---
+### How It Works
 
-# 🔄 Application Workflow
-
-```mermaid
-flowchart LR
-
-    A([👤 User Opens App])
-    B[📁 Upload Dataset]
-    C{📄 Check File Type}
-    D[🔍 Process CSV Data]
-    E[📗 Process Excel Data]
-    F[📊 Generate Data Preview]
-    G[🔎 Inspect Rows & Columns]
-    H[🧹 Select Cleaning Options]
-    I[⚙️ Process Dataset]
-    J[✅ Generate Clean Data]
-    K[📈 Review Results]
-    L([🎉 Ready for Analysis])
-
-    A --> B
-    B --> C
-
-    C -->|CSV| D
-    C -->|Excel| E
-
-    D --> F
-    E --> F
-
-    F --> G
-    G --> H
-    H --> I
-    I --> J
-    J --> K
-    K --> L
-How It Works
-Upload Dataset — Select a supported dataset file.
-File Processing — The application reads and processes the uploaded data.
-Data Preview — View dataset rows, columns, and information.
-Data Inspection — Explore the dataset and identify possible data-quality issues.
-Data Cleaning — Apply the available cleaning operations.
-Final Review — Review the processed data before using it for analysis.
-✨ Key Features
-<table> <tr> <td width="50%">
-📁 Dataset Upload
-
-Upload supported dataset files through an easy-to-use interface.
-
-CSV files
-Excel files
-Quick file selection
-Simple upload experience
-</td> <td width="50%">
-👀 Data Preview
-
-View uploaded data in a structured and readable format.
-
-Dataset rows
-Column names
-Organized tables
-Quick data inspection
-</td> </tr> <tr> <td width="50%">
-🧹 Data Cleaning
-
-Prepare raw data through an interactive cleaning interface.
-
-Identify data issues
-Apply cleaning operations
-Improve data quality
-Prepare data for analysis
-</td> <td width="50%">
-📊 Dataset Insights
-
-Understand the structure of your dataset.
-
-View rows and columns
-Explore available fields
-Review dataset information
-Understand data structure
-</td> </tr> <tr> <td width="50%">
-⚡ Fast Performance
-
-Built using Vite for a fast and smooth experience.
-
-Fast startup
-Quick updates
-Optimized builds
-</td> <td width="50%">
-📱 Responsive UI
-
-Designed to work smoothly across different devices.
-
-Desktop
-Tablet
-Mobile
-</td> </tr> </table>
+1. **Upload Dataset** — Select a CSV or Excel file.
+2. **File Processing** — The application reads and processes the uploaded file.
+3. **Data Preview** — View dataset rows and columns.
+4. **Data Inspection** — Explore the dataset structure.
+5. **Data Cleaning** — Apply the available cleaning operations.
+6. **Final Review** — Review the processed dataset.
